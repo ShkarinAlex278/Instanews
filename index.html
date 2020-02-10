@@ -8,23 +8,27 @@
     <title>Instanews App</title>
   </head>
   <body>
-    <div class="items">
+    <header class="items">
       <img src="/images/LogoNYT.gif" alt="Logo" />
       <div class="choose">
-        <p>
-          Choose a section <br />
-          <select name="list" id="myList" autofocus>
-            <option>Sections ...</option>
-            <!-- <option>Option</option>
-            <option>Textarea</option>
-            <option>Label</option>
-            <option>Fieldset</option>
-            <option>Legend</option> -->
-          </select>
-        </p>
+        <p>Choose a section <br /></p>
+        <select>
+          <option selected disabled>Sections ...</option>
+          <option class="home" value="home">Home</option>
+          <option class="arts" value="arts">Arts</option>
+          <option class="business" value="business">Business</option>
+          <option class="sports" value="sports">Sports</option>
+          <option class="technology" value="technology">Technology</option>
+          <option class="fashion" value="fashion">Fashion</option>
+        </select>
       </div>
-    </div>
-    <div class="grid">
+    </header>
+
+    <div class="display"></div>
+
+    <!-- <div class="/" img="/Assets/assets/images/ajax-loader.gif"></div> -->
+
+    <!-- <div class="grid">
       <div id="box">1</div>
       <div id="box">2</div>
       <div id="box">3</div>
@@ -41,22 +45,13 @@
       <div id="box">14</div>
       <div id="box">15</div>
       <div id="box">16</div>
-    </div>
+    </div> -->
+
     <footer>
       <p>
         &copy Copyright 2016 INSTANEWS.
       </p>
     </footer>
-    <!-- <button>Get Login Name</button>
-    <p class="user-name"></p> -->
-
-    <!-- <div class="weather-widget">
-      <h1>Vancouver Weather</h1>
-      <div class="results">
-        <p>Click the button to get the current weather conditions...</p>
-      </div>
-      <button id="get-weather">Get Weather</button>
-    </div> -->
 
     <script
       src="http://code.jquery.com/jquery-3.4.1.min.js"

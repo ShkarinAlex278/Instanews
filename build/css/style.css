@@ -4,10 +4,6 @@ body {
 p {
   color: aliceblue; }
 
-img {
-  width: 200px;
-  height: auto; }
-
 .items {
   position: relative;
   width: 100%;
@@ -35,15 +31,16 @@ select {
   align-items: center;
   align-content: space-between; }
 
-.choose p {
-  margin-left: 50px;
-  margin-bottom: 20px; }
-
-.grid {
+.display {
   display: grid;
   color: white;
-  grid-template-columns: 310px 310px 310px 310px;
-  grid-template-rows: 310px 310px 310px 310px; }
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 350px 350px 350px 350px; }
 
-#box {
-  border: solid 2px white; }
+img {
+  width: 400px;
+  height: auto; }
+
+figure {
+  width: 300px;
+  height: 100%; }
