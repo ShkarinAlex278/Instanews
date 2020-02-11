@@ -23,22 +23,22 @@ gulp.task("sass", function() {
     gulp
       //locates scss files
       //.src("./css/style.scss")
-      .src("./css/style.scss")
+      .src("./sass/style.scss")
       //converts sass to css
       .pipe(sass())
       //adds prefixes for compatability
       .pipe(autoprefixer())
       //adds css to build dir
-      .pipe(gulp.dest("./build/css"))
+      //.pipe(gulp.dest("./build/css"))
       //minifies our CSS
       .pipe(cssnano())
       //renames our CSS files
       .pipe(rename("style.min.css"))
+      .pipe(rename("style.css"))
       //adds our final output to build dir
       .pipe(gulp.dest("./build/css"))
-      //syncs browser whenever a change is made and saved
-      // .pipe(browserSync.stream())
-      .pipe(browserSync.stream())
+    //syncs browser whenever a change is made and saved
+    //.pipe(browserSync.stream())
   );
 });
 
@@ -50,8 +50,11 @@ gulp.task("watch", function() {
   });
 
   gulp.watch("js/*.js", gulp.series("scripts"));
-  gulp.watch("css/*.scss", gulp.series("sass"));
+  gulp.watch("sass/*.scss", gulp.series("sass"));
   gulp.watch("./html").on("change", browserSync.reload);
+  gulp
+    .watch(["build/css/*.css", "build/js/*.js"])
+    .on("change", browserSync.reload);
 });
 
 // My function WATCH

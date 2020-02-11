@@ -1,1 +1,12 @@
-{"version":3,"sourceRoot":"","sources":["style.scss"],"names":[],"mappings":"AAAA;EAGE","file":"style.css"}
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "../sass/_base.scss",
+    "../sass/_layout.scss",
+    "../sass/_components.scss"
+  ],
+  "names": [],
+  "mappings": "AAAA;EAGE",
+  "file": "style.css"
+}
