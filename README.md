@@ -13,7 +13,7 @@ A project for a Instanews using jQuery, Ajax and Gulp. The goal of my project wa
 + Gulp - Learn more: (https://en.wikipedia.org/wiki/Gulp.js);
 
 # Personal learnings:
-The Instanews project was usful for me because it self coveres varieties of tasks such as: 
+The Instanews project was useful for me because it self covered varieties of tasks such as: 
 * Work with different files in one program.
 * Using JQuery as library of JavaScript.
 * Got access by JSON to New York Time resource.
