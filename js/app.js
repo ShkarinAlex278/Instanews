@@ -6,6 +6,10 @@ $(function() {
     $.getJSON(
       `https://api.nytimes.com/svc/topstories/v2/${$selection}.json?api-key=DfA9QaZMuWxAfR4UZ4SltsgQUr8SyMk8`
     ).done(function(data) {
+      $(".items").css("position", "relative");
+      $(".logo").css("width", "10%");
+      $("footer").css("position", "relative");
+
       let counter = 0;
       $.each(data.results, function(key, value) {
         if (value.multimedia.length !== 0 && counter < 12) {
