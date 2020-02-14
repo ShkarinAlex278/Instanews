@@ -1,5 +1,5 @@
 # Instanews
-A project for a Instanews using SVGs. The goal of my project was to create a pong game with an original theme with sound effects.
+A project for a Instanews using jQuery, Ajax and Gulp. The goal of my project was to create a one-page, responsive website that allows a user to filter top news story categories via the New York Times API.
 
 # Technologies used for the projects:
 
