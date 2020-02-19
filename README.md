@@ -19,8 +19,8 @@ The Instanews project was useful for me because it self covered varieties of tas
 * Got access by JSON to New York Time resource.
 * Created file Gulp which is a task runner built on Node.js and npm, 
 used for automation of time-consuming and repetitive tasks involved in 
-web development like minification, concatenation, cache busting, unit testing, linting, optimization. Using Gulp, I set the rules for saving files in a project. He mastered a new method of image processing using Grid.
-
+web development like minification, concatenation, cache busting, unit testing, linting, optimization and etc.
+* Applied a new method in css image processing using Grid.
 
 
 Develop by: Alex Shkarin
